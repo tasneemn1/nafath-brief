@@ -20,10 +20,19 @@ Resource: Android Developers, Build an Offline-First App, sections on data synch
 A Disaster Management System with Offline OSM Caching, Conflict- Aware Synchronization, and QR Code-based Emergency Location - https://ieeexplore.ieee.org/abstract/document/11708139
 
 ## Networking
+5G network slicing technology enables the creation of logical networks with distinct capabilities and service requirements over a shared physical infrastructure. It allows operators to allocate a dedicated slice to emergency response teams—defining appropriate Quality of Service (QoS) targets, prioritizing data traffic, and isolating it from standard user traffic—thereby enhancing communication performance during congestion and increasing efficiency. However, slicing alone does not guarantee the prevention of all failures; operators must also protect the shared infrastructure and provide reliable power sources, transport links, and backup systems to ensure continuity.
+
+Resource: 3GPP, TS 28.530: Management and Orchestration; Concepts, Use Cases and Requirements, Section 4.1.1. - https://www.etsi.org/deliver/etsi_ts/128500_128599/128530/17.06.00_60/ts_128530v170600p.pdf
 
 ## Cybersecurity
+Incident response helps the operator manage cyberattacks and restore critical communications. Under NIST CSF 2.0, the relevant functions are Govern, Identify, Protect, Detect, Respond, and Recover. During an attack, the operator should detect suspicious activity, investigate its scope, contain affected systems, remove the threat, restore services safely, and review lessons learned. Preparation, clear responsibilities and tested recovery procedures help reduce downtime and prevent similar incidents from causing further disruption.
+
+Resource: Nelson, A., Rekhi, S., Souppaya, M., & Scarfone, K. (2025). NIST SP 800-61 Rev. 3: Incident Response Recommendations and Considerations for Cybersecurity Risk Management. - https://csrc.nist.gov/pubs/sp/800/61/r3/final
 
 ## Data
+A star schema stores measurable events in a central fact table connected directly to dimension tables, such as date and region. A snowflake schema normalizes dimensions into additional related tables, reducing some redundancy but requiring more joins. For daily regional service-usage reports, a star schema is generally preferable because its simpler structure supports straightforward queries and efficient business intelligence reporting. The fact table could record usage volume, date keys and region keys.
+
+Resource: Levene, M., & Loizou, G. (2003). Why is the snowflake schema a good data warehouse design? Information Systems, 28(3), 225–240. - https://doi.org/10.1016/S0306-4379(02)00021-2
 
 ## Misconception in My Track
 
