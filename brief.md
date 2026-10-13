@@ -35,5 +35,10 @@ A star schema stores measurable events in a central fact table connected directl
 Resource: Levene, M., & Loizou, G. (2003). Why is the snowflake schema a good data warehouse design? Information Systems, 28(3), 225–240. - https://doi.org/10.1016/S0306-4379(02)00021-2
 
 ## Misconception in My Track
+A common misconception in my track “Cyber Security”
+ is that incident response ends once a cyberattack has been stopped. In reality, effective incident response also requires detecting and analyzing the incident, containing its impact, restoring affected services, and learning lessons to improve future security. For the emergency 5G service, stopping an attack is not enough if responders still cannot communicate reliably. The operator must verify service recovery and improve its defenses to reduce the risk of similar incidents. NIST SP 800-61 Rev. 3 supports this approach by emphasizing detection, response, recovery, and continuous improvement.
+
+Resource: Nelson, A., Rekhi, S., Souppaya, M., & Scarfone, K. (2025). NIST SP 800-61 Rev. 3: Incident Response Recommendations and Considerations for Cybersecurity Risk Management. Section 2.1, “Incident Response Life Cycle Model,” PDF p. 5.- https://doi.org/10.6028/NIST.SP.800-61r3
 
 ## Open Question
+How can a 5G emergency network defend itself against a sophisticated cyberattack while maintaining communications, even when its security systems are under attack?
