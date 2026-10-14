@@ -16,8 +16,7 @@ Resource: Scikit-learn, Cross-validation: Evaluating Estimator Performance. -htt
 ## Mobile
 The response application should be designed to function offline, enabling access to cached essential information and securely saving permitted updates locally during connectivity outages. Upon reconnection, the application must automatically synchronize queued changes, retry failed operations, and detect conflicting updates. Version numbers, timestamps, and clear conflict-resolution rules help maintain consistency. The user interface must clearly distinguish between saved, pending, and confirmed updates so that responders do not confuse unsynchronized information with data confirmed by the server.
 
-Resource: Android Developers, Build an Offline-First App, sections on data synchronization and conflict resolution. - https://developer.android.com/topic/architecture/data-layer/offline-first
-A Disaster Management System with Offline OSM Caching, Conflict- Aware Synchronization, and QR Code-based Emergency Location - https://ieeexplore.ieee.org/abstract/document/11708139
+Resource: A Disaster Management System with Offline OSM Caching, Conflict- Aware Synchronization, and QR Code-based Emergency Location - https://ieeexplore.ieee.org/abstract/document/11708139
 
 ## Networking
 5G network slicing technology enables the creation of logical networks with distinct capabilities and service requirements over a shared physical infrastructure. It allows operators to allocate a dedicated slice to emergency response teams—defining appropriate Quality of Service (QoS) targets, prioritizing data traffic, and isolating it from standard user traffic—thereby enhancing communication performance during congestion and increasing efficiency. However, slicing alone does not guarantee the prevention of all failures; operators must also protect the shared infrastructure and provide reliable power sources, transport links, and backup systems to ensure continuity.
